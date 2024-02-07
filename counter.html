@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    
+    <h1 id="header">0</h1>
+    <button onclick="incre(),parv()">+</button>
+    <button onclick="decre(),parv()">-</button>
+
+    <script>
+        count=0;
+        function parv(){
+        if(count>=0){
+            obj.style.color="green"
+        }
+        else
+        {
+            obj.style.color="red";
+        }
+    }
+        function incre(){
+            count++;
+            obj=document.getElementById("header")
+            obj.innerHTML=count
+           
+
+        }
+
+        function decre(){
+            count--;
+            obj.innerHTML=count;
+            
+        }
+     
+    </script>
+
+
+</body>
+</html>
