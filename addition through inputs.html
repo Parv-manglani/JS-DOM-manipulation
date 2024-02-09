@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+</head>
+<body>
+    <input type="number" id="number1">
+    <input type="number" id="number2">
+    <button onclick="add()">add</button>
+     <h1 id="display">-</h1>
+
+  <script>
+    one=document.getElementById("number1")
+    two=document.getElementById("number2")
+    function add(){
+        k=Number(one.value) + Number(two.value);
+        obj=document.getElementById("display")
+        obj.innerHTML=k
+}
+
+  </script>
+</body>
+  
+</html>
